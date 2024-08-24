@@ -1,0 +1,35 @@
+@import "normalize.css";
+@import "variables";
+@import "templates";
+@import "mixins";
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&display=swap');
+
+#app {
+  font-size: 14px;
+  font-family: 'Rajdhani', sans-serif;
+  background: $app-color-generic;
+}
+
+a, input, textarea, button {
+  border: none;
+  background: transparent;
+  text-decoration: none;
+  &:visited {
+    text-decoration: none;
+    color: $app-color-text-dark
+  }
+  &:active {
+    border: 0.1rem solid transparent;
+  }
+}
+
+.logotype {
+  @include text-label-3();
+  color: $app-color-prime;
+  -webkit-text-stroke: 0.1rem $app-color-text-dark;
+  span {color: #252A34}
+}
+
+.element--hide {
+  display: none;
+}
