@@ -1,0 +1,6 @@
+C:\Users\jreydman\Desktop\шарп\шарп\lb6\lb6\bin\Debug\lb6.dll
+C:\Users\jreydman\Desktop\шарп\шарп\lb6\lb6\bin\Debug\lb6.pdb
+C:\Users\jreydman\Desktop\шарп\шарп\lb6\lb6\obj\Debug\lb6.csproj.AssemblyReference.cache
+C:\Users\jreydman\Desktop\шарп\шарп\lb6\lb6\obj\Debug\lb6.csproj.CoreCompileInputs.cache
+C:\Users\jreydman\Desktop\шарп\шарп\lb6\lb6\obj\Debug\lb6.dll
+C:\Users\jreydman\Desktop\шарп\шарп\lb6\lb6\obj\Debug\lb6.pdb

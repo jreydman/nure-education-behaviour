@@ -1,0 +1,33 @@
+﻿<Application x:Class="CompanyMonitor.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:CompanyMonitor"
+             xmlns:view="clr-namespace:CompanyMonitor.MVVM.View"
+             xmlns:viewModel="clr-namespace:CompanyMonitor.MVVM.ViewModel" 
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Theme/MenuButtonTheme.xaml"/>
+                <ResourceDictionary Source="Theme/FunctionButtonTheme.xaml"/>
+                <ResourceDictionary Source="Theme/EditFormButtonTheme.xaml"/>
+                <ResourceDictionary Source="Theme/HeaderTextBlockTheme.xaml"/>
+                <ResourceDictionary Source="Theme/InputTextBlockTheme.xaml"/>
+                <ResourceDictionary Source="Theme/InputTextBoxTheme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+
+            <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
+                <view:HomeView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:DepartmentViewModel}">
+                <view:DepartmentView/>
+            </DataTemplate>
+
+            <DataTemplate DataType="{x:Type viewModel:EmployeeViewModel}">
+                <view:EmployeeView/>
+            </DataTemplate>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

@@ -1,6 +1,0 @@
-/Users/jreydman/WORK/ipp_lb1_5/ipp_lb5_5/obj/Debug/net4.0/ipp_lb5_5.csproj.AssemblyReference.cache
-/Users/jreydman/WORK/ipp_lb1_5/ipp_lb5_5/obj/Debug/net4.0/ipp_lb5_5.csproj.SuggestedBindingRedirects.cache
-/Users/jreydman/WORK/ipp_lb1_5/ipp_lb5_5/obj/Debug/net4.0/ipp_lb5_5.GeneratedMSBuildEditorConfig.editorconfig
-/Users/jreydman/WORK/ipp_lb1_5/ipp_lb5_5/obj/Debug/net4.0/ipp_lb5_5.AssemblyInfoInputs.cache
-/Users/jreydman/WORK/ipp_lb1_5/ipp_lb5_5/obj/Debug/net4.0/ipp_lb5_5.AssemblyInfo.cs
-/Users/jreydman/WORK/ipp_lb1_5/ipp_lb5_5/obj/Debug/net4.0/ipp_lb5_5.csproj.CoreCompileInputs.cache
